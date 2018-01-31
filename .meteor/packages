@@ -21,3 +21,6 @@ accounts-ui
 twbs:bootstrap
 accounts-password
 session
+jparker:gravatar
+momentjs:moment@=2.13.1
+rzymek:moment-locale-ko@=2.12.0
