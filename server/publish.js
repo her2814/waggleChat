@@ -11,3 +11,7 @@ Meteor.publish("messages",function(roomId,count){
                 return Messages.find({roomId:roomId},{sort:{timestamp:-1},limit:count});
         }
 })
+
+Meteor.publish("room",function(roomId){
+        return Rooms.find({_id:roomId});
+})

@@ -19,8 +19,8 @@ body{
 
 .panel-body
 {
-    overflow-x: scroll;
-    overflow-y: hidden;
+    overflow-x: hidden;
+    overflow-y: scroll;
     padding: 0 10px 0 10px;
 }
 

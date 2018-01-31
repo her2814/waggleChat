@@ -5,4 +5,8 @@ Template.message.helpers({
     gravatar(){
         return "http://www.gravatar.com/avatar/"+Gravatar.hash(this.email)+"?s=45&d=wavatar";
     }
+    ,
+    me(){
+        return Meteor.userId() == this.owner;
+    }
 });
